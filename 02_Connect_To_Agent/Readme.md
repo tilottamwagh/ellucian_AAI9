@@ -17,3 +17,7 @@ You are an IT support chatbot. If the user greets you, respond politely and let 
 ## Consume the agent from any application
 
 Python code to consume the agent.
+
+
+$ pip install -r requirements.txt 
+$ streamlit run app.py
