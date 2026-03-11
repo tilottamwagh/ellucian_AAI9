@@ -1,0 +1,60 @@
+GenAI -> NLP [Commands CLI] -> Application 
+    AI,ML -> Process -> Human Brain 
+        1. Deep Learning [Neural network]
+            1. transformers -> [Antrophic, openai, google ...]
+                1. Discremination -> true or false 
+                2. generative -> data to be generated 
+            2. Outcomes: 
+                1. SLM -> Smal Langualre model -> Dataset is narrow -> open source -> very less
+                2. LLM -> Large L M -> huge data -> RLHF -> 
+                    API's -> tokens 
+                    stateless service -> manage the conversations -> context 
+                        1. prompt enggg
+                        2. rag implementation 
+                    Context window -> 10 tokens, 1000k tokens 
+
+Client                              server
+GenAI APP [Statefull]       ->      LLM [stateless service] -> till have you been trained []
+chatgpt                             gpt-5.2
+copilot                             executing [no training on the fly] -> latest and greates data will not be their in its memory
+claude                              [tool calling -> fetch the real time data]
+cursor 
+
+[langchain -> componnents [prompt template, memory [summarization -> 3 tokens], Chains]]
+
+Patterns -> Stock Markets ->
+    1. GenAI fetch the realtime data and give as part of context for your llm 
+    2. LLM [tool calling -> fetch the real time data]
+
+    1. LLM will manage tool calling for us
+        plan:  
+            1. create a package.json file -> tools createFile 
+            2. update the pacakage.json with boiler palte data
+
+Agents -> AI Agent -> perform a task on beahlf of human [Atutomation]
+        [LLM, Tools, RAG] -> Chain [sequential chain, parallel chain]
+        0.46 -> 
+        1.x -> graphs agents
+Langgraph - Agentic AI -> [LLM, Tools, RAG, orchestration]
+    1. Agent [LLM, Tools, RAG]
+    2. Agent [LLM, Tools, RAG]
+    3. Agent [LLM, Tools, RAG]
+
+Langchain -> 
+    1. genai app - Langchain - langgraph
+    2. agentic ai - langgraph -> langflow [workflow]
+    3. observability - langsmith
+
+Agentic AI : AI Recruiter -> Goal oriented activity
+    requirement -> hire a java full stack developer for sse 
+        1. prepare jd [Task - Agent, LLM, RAG - Company rules]
+        2. post it in Internal, external 
+            [Agent, LLM, Tool Calling[naukri, monster, internal]]
+        3. accept the resuem and intrest 
+        4. shortlist the resume 
+        5. shedule a interview [f2f]
+        6. conduct the interview 
+        7. result of interviw 
+        8. selection of the candidate
+        9. release the offer letter
+    output -> releasing an offer leter
