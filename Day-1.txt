@@ -36,7 +36,7 @@ Agents -> AI Agent -> perform a task on beahlf of human [Atutomation]
         0.46 -> 
         1.x -> graphs agents
 Langgraph - Agentic AI -> [LLM, Tools, RAG, orchestration]
-    1. Agent [LLM, Tools, RAG]
+    1. Agent [LLM, Tools, RAG [KB] - custom data for llm to work on]
     2. Agent [LLM, Tools, RAG]
     3. Agent [LLM, Tools, RAG]
 
