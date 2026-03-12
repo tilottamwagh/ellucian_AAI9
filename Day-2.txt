@@ -1,0 +1,8 @@
+Langchain -> [Langchain, LangGraph, LangSmith]
+    1. gen ai 
+    2. AI Agents
+    3. Agentic AI 
+
+LangGraph: Framework - Rules for developing Agentic Application
+    1. Componenet 
+    2. implement 
