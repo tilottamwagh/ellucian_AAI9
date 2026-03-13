@@ -3,3 +3,4 @@
 .venv/*
 03-LangGraph/01-Basics/.env
 03-LangGraph/02-Advanced/.env
+03-LangGraph/03_MCP/.env
